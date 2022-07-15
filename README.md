@@ -1,7 +1,7 @@
 # [A Broad Study of Pre-training for Domain Generalization and Adaptation (ECCV 2022)](https://arxiv.org/pdf/2203.11819.pdf)
 [Donghyun Kim](http://cs-people.bu.edu/donhk/), [Kaihong Wang](https://cs-people.bu.edu/kaiwkh/), [Stan Sclaroff](https://www.cs.bu.edu/fac/sclaroff/), and [Kate Saenko](http://ai.bu.edu/ksaenko.html).
 #### [[Project Page]]()  [[Paper]](https://arxiv.org/pdf/2203.11819.pdf)
-![Overview](images/fig1.pdf)
+![Overview](images/fig1.jpg)
 
 
 
