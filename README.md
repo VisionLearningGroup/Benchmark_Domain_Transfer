@@ -36,4 +36,16 @@ pip install wilds
 pip install timm
 ```
 
+# Baseline training example
+### ConvNeXt
+```
+python main.py data_scc/office-home -d OfficeHome -s Rw -t Cl Ar Pr -a convnext_base_in22ft1k --seed 0 --log logs/baseline/
 
+python main.py data_scc/domainnet -d DomainNet -s r -t i p q c s -a convnext_base_in22ft1k --seed 0 --log logs/baseline_domainnet/
+```
+### Swin Transformers
+```
+python main.py data_scc/office-home -d OfficeHome -s Rw -t Cl Ar Pr -a swin_base_patch4_window7_224 --seed 0 --log logs/baseline/
+
+python main.py data_scc/domainnet -d DomainNet -s r -t c i p q s -a swin_base_patch4_window7_224 --seed 0 --log logs/baseline_domainnet/
+```
